@@ -79,7 +79,4 @@ def courses_for_lecturers(json_directory_path, output_json_path):
     with open(output_json_path, 'w') as output_file:
         json.dump(courses_for_lecturers_dict, output_file, indent=4)
 
-#names_of_registered_students("D:/Varrock/technion/courses/sem_D/234124/ex5/students_database.json", "matam")
-#print(names_of_registered_students( input_json_path = "D:/Varrock/technion/courses/sem_D/234124/ex5/students_database.json", course_name = "Introduction to Systems Programming"))
-#enrollment_numbers(input_json_path = "D:/Varrock/technion/courses/sem_D/234124/ex5/students_database.json", output_file_path = "D:/Varrock/technion/courses/sem_D/234124/ex5/students_database_courses_count.txt")
-courses_for_lecturers(json_directory_path="D:/Varrock/technion/courses/sem_D/234124/ex5/semesters_databases", output_json_path="D:/Varrock/technion/courses/sem_D/234124/ex5/courses_for_lecturers.json")
+courses_for_lecturers(json_directory_path="directory_path", output_json_path="path.json")
